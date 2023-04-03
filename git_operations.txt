@@ -27,3 +27,4 @@
 27 I have used touch command for creating hook files then I have used nano editor for scripting .
 28 then I have maked script file excutable by write chmod +x pre-commit and then post-commit
 29 then I moved to my working directory and did commit and script got appear.
+30 in master branch this file is present on git repository 
