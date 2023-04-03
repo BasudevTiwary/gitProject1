@@ -1,0 +1,29 @@
+1 first I created a repository in github as gitProject1.
+2 cloned the respository using( $ git clone https://github.com/BasudevTiwary/gitPrject1.git ).
+3 created a dev branch and switched to that using( $ git checkout -b dev) .
+4 created an index.html file in project directory and added some html code to it.
+5 stagged ($git add .) and commited ($git commit -m"message") the changed in this index.html file in dev branch with message "initiat commit in dev". 
+6 Switched back to main branch ($git checkout main) and merge dev to main using ($ git merge dev) .
+7 pushed the changes to the main branch on git hub using( $ git push -u origin main ).
+8 created a new branch called feature-1 ($git checkout -b feature-1).
+9 edited index.html file and added a new line as this is feature 1 branch.
+10 stagged and commited the changes in feature-1 branch using ($git add . and git commit -m"message".
+11 switched back to dev branch ($git checkout dev) and merged to feature-1 branch($git merge feature-1).
+12 pushed to github on dev branch using ($git push origin dev).
+13 created a new branch called feature-2 ($git checkout -b feature-2).
+14 edited index.html file and added a new line as this is feature 2 branch.
+15 stagged and commited the changes in feature-2 branch using ($git add . and git commit -m"message").
+16 switched back to dev branch ($git checkout dev) and merged to feature-2 branch($git merge feature-2).
+17 created a pull request in git hub.
+18 reviewed and approved the pull request in github.
+19 deleted feature-1 and feature-2 branch using ($git branch -d feature-1 and $git branch -d feature-2)
+20 created a tag v1.0 for specific commit with commit SHA 80f7554 by using ($ git tag -a v1.0 80f7554 -m"this is version v1.0")
+21 added tag to remote github using ($git push origin v1.0)
+22 used git submodule for tensorflow repository ($git submodule add tensorflow git repo url).
+23 and then changed the directory to tensorflow folder to pull the latest version ($git pull origin main)
+24 once I got the lates the version of tensorflow I added to stagged  and then commited the file 
+25 after commited I pushed to github repository ($git push).
+26 I have used pre-commit and post-commit hooks by creating hook files and script as "I am pre-commit" and "I  am post-commit"
+27 I have used touch command for creating hook files then I have used nano editor for scripting .
+28 then I have maked script file excutable by write chmod +x pre-commit and then post-commit
+29 then I moved to my working directory and did commit and script got appear.
